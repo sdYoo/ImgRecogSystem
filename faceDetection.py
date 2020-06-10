@@ -2,9 +2,9 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('config/haarcascade_frontalface_default.xml')
 
-img = cv2.imread('images/20200610_hyori.jpg')
+img = cv2.imread('images/20200610_hyoriss.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 faces = face_cascade.detectMultiScale(gray, 1.9, 2)
 

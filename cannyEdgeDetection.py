@@ -1,6 +1,3 @@
-# canny edge detect 알고리즘 참고
-# https://blog.naver.com/samsjang/220507996391
-
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
